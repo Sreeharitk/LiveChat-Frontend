@@ -4,7 +4,7 @@ import Chat from "./Chat"
 import "./home.css"
 
 
-const socket = io.connect("http://localhost:3001")
+const socket = io.connect("https://chat-backend-a5zq.onrender.com")
 
 function Home() {
 
